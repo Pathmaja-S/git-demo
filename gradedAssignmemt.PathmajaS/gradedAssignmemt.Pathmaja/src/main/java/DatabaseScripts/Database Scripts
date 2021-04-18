@@ -1,0 +1,5 @@
+create database employee_directory;
+
+use  employee_directory;
+
+create table `employees`(`id` int(10) NOT NULL auto_increment, `first_name` varchar(50) Default null, `last_name` varchar(50) Default null, `email` varchar(50) Default null, `department` varchar(10) Default null, primary key (`id`));
